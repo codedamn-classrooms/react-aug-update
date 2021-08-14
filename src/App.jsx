@@ -1,13 +1,14 @@
 import React from 'react'
 
 function App() {
-	const counter = 0
-
 	return (
 		<div className="App">
-			<h1>Counter: {counter}</h1>
-			<button>Increment</button>
-			<button>Decrement</button>
+			{/* give this input correct ID and "enter" event */}
+			<input type="text" />
+
+			<ul id="task-list">
+				{/* your tasks should be added here*/}
+			</ul>
 		</div>
 	)
 }
