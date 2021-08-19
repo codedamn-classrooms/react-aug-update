@@ -5,7 +5,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<h1>Counter: {counter}</h1>
+			<h1>Counter: <span>{counter}</span></h1>
 			<button>Increment</button>
 			<button>Decrement</button>
 		</div>
